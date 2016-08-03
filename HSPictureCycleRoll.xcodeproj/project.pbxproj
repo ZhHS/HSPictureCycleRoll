@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95EBB4681D51C259005FD7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBB4671D51C259005FD7F0 /* AppDelegate.swift */; };
+		95EBB46A1D51C259005FD7F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBB4691D51C259005FD7F0 /* ViewController.swift */; };
+		95EBB46D1D51C259005FD7F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EBB46B1D51C259005FD7F0 /* Main.storyboard */; };
+		95EBB46F1D51C259005FD7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EBB46E1D51C259005FD7F0 /* Assets.xcassets */; };
+		95EBB4721D51C259005FD7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EBB4701D51C259005FD7F0 /* LaunchScreen.storyboard */; };
+		95EBB47D1D51C259005FD7F0 /* HSPictureCycleRollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBB47C1D51C259005FD7F0 /* HSPictureCycleRollTests.swift */; };
+		95EBB4881D51C259005FD7F0 /* HSPictureCycleRollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBB4871D51C259005FD7F0 /* HSPictureCycleRollUITests.swift */; };
+		95EBB4961D51C28A005FD7F0 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBB4951D51C28A005FD7F0 /* ImageScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95EBB4791D51C259005FD7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95EBB45C1D51C259005FD7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95EBB4631D51C259005FD7F0;
+			remoteInfo = HSPictureCycleRoll;
+		};
+		95EBB4841D51C259005FD7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95EBB45C1D51C259005FD7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95EBB4631D51C259005FD7F0;
+			remoteInfo = HSPictureCycleRoll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95EBB4641D51C259005FD7F0 /* HSPictureCycleRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSPictureCycleRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EBB4671D51C259005FD7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95EBB4691D51C259005FD7F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95EBB46C1D51C259005FD7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95EBB46E1D51C259005FD7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95EBB4711D51C259005FD7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95EBB4731D51C259005FD7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EBB4781D51C259005FD7F0 /* HSPictureCycleRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSPictureCycleRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EBB47C1D51C259005FD7F0 /* HSPictureCycleRollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPictureCycleRollTests.swift; sourceTree = "<group>"; };
+		95EBB47E1D51C259005FD7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EBB4831D51C259005FD7F0 /* HSPictureCycleRollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSPictureCycleRollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EBB4871D51C259005FD7F0 /* HSPictureCycleRollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPictureCycleRollUITests.swift; sourceTree = "<group>"; };
+		95EBB4891D51C259005FD7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EBB4951D51C28A005FD7F0 /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95EBB4611D51C259005FD7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EBB4751D51C259005FD7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EBB4801D51C259005FD7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95EBB45B1D51C259005FD7F0 = {
+			isa = PBXGroup;
+			children = (
+				95EBB4661D51C259005FD7F0 /* HSPictureCycleRoll */,
+				95EBB47B1D51C259005FD7F0 /* HSPictureCycleRollTests */,
+				95EBB4861D51C259005FD7F0 /* HSPictureCycleRollUITests */,
+				95EBB4651D51C259005FD7F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95EBB4651D51C259005FD7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95EBB4641D51C259005FD7F0 /* HSPictureCycleRoll.app */,
+				95EBB4781D51C259005FD7F0 /* HSPictureCycleRollTests.xctest */,
+				95EBB4831D51C259005FD7F0 /* HSPictureCycleRollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95EBB4661D51C259005FD7F0 /* HSPictureCycleRoll */ = {
+			isa = PBXGroup;
+			children = (
+				95EBB4951D51C28A005FD7F0 /* ImageScrollView.swift */,
+				95EBB4691D51C259005FD7F0 /* ViewController.swift */,
+				95EBB4971D51C290005FD7F0 /* Support */,
+			);
+			path = HSPictureCycleRoll;
+			sourceTree = "<group>";
+		};
+		95EBB47B1D51C259005FD7F0 /* HSPictureCycleRollTests */ = {
+			isa = PBXGroup;
+			children = (
+				95EBB47C1D51C259005FD7F0 /* HSPictureCycleRollTests.swift */,
+				95EBB47E1D51C259005FD7F0 /* Info.plist */,
+			);
+			path = HSPictureCycleRollTests;
+			sourceTree = "<group>";
+		};
+		95EBB4861D51C259005FD7F0 /* HSPictureCycleRollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95EBB4871D51C259005FD7F0 /* HSPictureCycleRollUITests.swift */,
+				95EBB4891D51C259005FD7F0 /* Info.plist */,
+			);
+			path = HSPictureCycleRollUITests;
+			sourceTree = "<group>";
+		};
+		95EBB4971D51C290005FD7F0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				95EBB4671D51C259005FD7F0 /* AppDelegate.swift */,
+				95EBB46B1D51C259005FD7F0 /* Main.storyboard */,
+				95EBB46E1D51C259005FD7F0 /* Assets.xcassets */,
+				95EBB4701D51C259005FD7F0 /* LaunchScreen.storyboard */,
+				95EBB4731D51C259005FD7F0 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95EBB4631D51C259005FD7F0 /* HSPictureCycleRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EBB48C1D51C259005FD7F0 /* Build configuration list for PBXNativeTarget "HSPictureCycleRoll" */;
+			buildPhases = (
+				95EBB4601D51C259005FD7F0 /* Sources */,
+				95EBB4611D51C259005FD7F0 /* Frameworks */,
+				95EBB4621D51C259005FD7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSPictureCycleRoll;
+			productName = HSPictureCycleRoll;
+			productReference = 95EBB4641D51C259005FD7F0 /* HSPictureCycleRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95EBB4771D51C259005FD7F0 /* HSPictureCycleRollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EBB48F1D51C259005FD7F0 /* Build configuration list for PBXNativeTarget "HSPictureCycleRollTests" */;
+			buildPhases = (
+				95EBB4741D51C259005FD7F0 /* Sources */,
+				95EBB4751D51C259005FD7F0 /* Frameworks */,
+				95EBB4761D51C259005FD7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95EBB47A1D51C259005FD7F0 /* PBXTargetDependency */,
+			);
+			name = HSPictureCycleRollTests;
+			productName = HSPictureCycleRollTests;
+			productReference = 95EBB4781D51C259005FD7F0 /* HSPictureCycleRollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95EBB4821D51C259005FD7F0 /* HSPictureCycleRollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EBB4921D51C259005FD7F0 /* Build configuration list for PBXNativeTarget "HSPictureCycleRollUITests" */;
+			buildPhases = (
+				95EBB47F1D51C259005FD7F0 /* Sources */,
+				95EBB4801D51C259005FD7F0 /* Frameworks */,
+				95EBB4811D51C259005FD7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95EBB4851D51C259005FD7F0 /* PBXTargetDependency */,
+			);
+			name = HSPictureCycleRollUITests;
+			productName = HSPictureCycleRollUITests;
+			productReference = 95EBB4831D51C259005FD7F0 /* HSPictureCycleRollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95EBB45C1D51C259005FD7F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhangHS;
+				TargetAttributes = {
+					95EBB4631D51C259005FD7F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					95EBB4771D51C259005FD7F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95EBB4631D51C259005FD7F0;
+					};
+					95EBB4821D51C259005FD7F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95EBB4631D51C259005FD7F0;
+					};
+				};
+			};
+			buildConfigurationList = 95EBB45F1D51C259005FD7F0 /* Build configuration list for PBXProject "HSPictureCycleRoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95EBB45B1D51C259005FD7F0;
+			productRefGroup = 95EBB4651D51C259005FD7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95EBB4631D51C259005FD7F0 /* HSPictureCycleRoll */,
+				95EBB4771D51C259005FD7F0 /* HSPictureCycleRollTests */,
+				95EBB4821D51C259005FD7F0 /* HSPictureCycleRollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95EBB4621D51C259005FD7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EBB4721D51C259005FD7F0 /* LaunchScreen.storyboard in Resources */,
+				95EBB46F1D51C259005FD7F0 /* Assets.xcassets in Resources */,
+				95EBB46D1D51C259005FD7F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EBB4761D51C259005FD7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EBB4811D51C259005FD7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95EBB4601D51C259005FD7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EBB4961D51C28A005FD7F0 /* ImageScrollView.swift in Sources */,
+				95EBB46A1D51C259005FD7F0 /* ViewController.swift in Sources */,
+				95EBB4681D51C259005FD7F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EBB4741D51C259005FD7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EBB47D1D51C259005FD7F0 /* HSPictureCycleRollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EBB47F1D51C259005FD7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EBB4881D51C259005FD7F0 /* HSPictureCycleRollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95EBB47A1D51C259005FD7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95EBB4631D51C259005FD7F0 /* HSPictureCycleRoll */;
+			targetProxy = 95EBB4791D51C259005FD7F0 /* PBXContainerItemProxy */;
+		};
+		95EBB4851D51C259005FD7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95EBB4631D51C259005FD7F0 /* HSPictureCycleRoll */;
+			targetProxy = 95EBB4841D51C259005FD7F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95EBB46B1D51C259005FD7F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95EBB46C1D51C259005FD7F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95EBB4701D51C259005FD7F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95EBB4711D51C259005FD7F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95EBB48A1D51C259005FD7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95EBB48B1D51C259005FD7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95EBB48D1D51C259005FD7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HSPictureCycleRoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youjiekeji.HSPictureCycleRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95EBB48E1D51C259005FD7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HSPictureCycleRoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youjiekeji.HSPictureCycleRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95EBB4901D51C259005FD7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HSPictureCycleRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youjiekeji.HSPictureCycleRollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSPictureCycleRoll.app/HSPictureCycleRoll";
+			};
+			name = Debug;
+		};
+		95EBB4911D51C259005FD7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HSPictureCycleRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youjiekeji.HSPictureCycleRollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSPictureCycleRoll.app/HSPictureCycleRoll";
+			};
+			name = Release;
+		};
+		95EBB4931D51C259005FD7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HSPictureCycleRollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youjiekeji.HSPictureCycleRollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HSPictureCycleRoll;
+			};
+			name = Debug;
+		};
+		95EBB4941D51C259005FD7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HSPictureCycleRollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youjiekeji.HSPictureCycleRollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HSPictureCycleRoll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95EBB45F1D51C259005FD7F0 /* Build configuration list for PBXProject "HSPictureCycleRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EBB48A1D51C259005FD7F0 /* Debug */,
+				95EBB48B1D51C259005FD7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EBB48C1D51C259005FD7F0 /* Build configuration list for PBXNativeTarget "HSPictureCycleRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EBB48D1D51C259005FD7F0 /* Debug */,
+				95EBB48E1D51C259005FD7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95EBB48F1D51C259005FD7F0 /* Build configuration list for PBXNativeTarget "HSPictureCycleRollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EBB4901D51C259005FD7F0 /* Debug */,
+				95EBB4911D51C259005FD7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95EBB4921D51C259005FD7F0 /* Build configuration list for PBXNativeTarget "HSPictureCycleRollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EBB4931D51C259005FD7F0 /* Debug */,
+				95EBB4941D51C259005FD7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95EBB45C1D51C259005FD7F0 /* Project object */;
+}
